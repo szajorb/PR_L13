@@ -45,7 +45,7 @@ class SignUpForm extends Component {
 
         axios({
             method: 'post',
-            url: 'http://localhost:3001/api/user/create',
+            url: 'https://pr04.herokuapp.com/api/user/create',
             data: {
                 name: this.state.account.username,
                 email: this.state.account.email,
