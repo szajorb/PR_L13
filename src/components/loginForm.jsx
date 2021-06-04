@@ -39,7 +39,7 @@ class LoginForm extends Component {
 
         axios({
             method: 'post',
-            url: 'https://apppr13.herokuapp.com//api/user/auth',
+            url: 'https://apppr13.herokuapp.com/api/user/auth',
             data: {
                 login: this.state.account.username,
                 password: this.state.account.password
